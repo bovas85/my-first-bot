@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var request = require('request');
 var app = express();
-var token = "<EAAIEfsNb6YkBAPWwlVpiQqq51tfTWOZBj7X7h7AF5RhymUmQOOH0mOHwfNzstp2ce4o5VdNJkPXgRV9uR0eZBsiFpSXHNAeEyUnTddWZB2pZCmfBMLjM2214u3NhkL18iIDt8uuGWNsFQb9oxRKKvorCtYNjLL5iLCBsZCMzRYAZDZD>";
+var token = "EAAIEfsNb6YkBAPWwlVpiQqq51tfTWOZBj7X7h7AF5RhymUmQOOH0mOHwfNzstp2ce4o5VdNJkPXgRV9uR0eZBsiFpSXHNAeEyUnTddWZB2pZCmfBMLjM2214u3NhkL18iIDt8uuGWNsFQb9oxRKKvorCtYNjLL5iLCBsZCMzRYAZDZD";
 
 app.set('port', (process.env.PORT || 5000));
 
