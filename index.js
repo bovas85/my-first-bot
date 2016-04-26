@@ -105,7 +105,7 @@ function sendGenericMessage(sender) {
                 }]
             }
         }
-    };
+    }
     request({
         url: 'https://graph.facebook.com/v2.6/me/messages',
         qs: {access_token:token},
@@ -116,9 +116,9 @@ function sendGenericMessage(sender) {
         }
     }, function(error, response, body) {
         if (error) {
-            console.log('Error sending messages: ', error);
+            console.log('Error sending messages: ', error)
         } else if (response.body.error) {
-            console.log('Error: ', response.body.error);
+            console.log('Error: ', response.body.error)
         }
-    });
+    })
 }
